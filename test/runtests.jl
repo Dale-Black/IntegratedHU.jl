@@ -1,6 +1,3 @@
-using IntegratedHU
-using Test
+include("./imports.jl")
 
-@testset "IntegratedHU.jl" begin
-    # Write your tests here.
-end
+include("mass_hu.jl")
